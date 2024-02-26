@@ -1,0 +1,432 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+.container nav{
+    border: 1px solid rgb(228, 228, 228);
+    display: flex;
+    height: 65px;
+    justify-content: space-between;
+    /* position: fixed; */
+   img{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    height: 50px;
+    width: 60px;
+   }
+
+li{
+   list-style: none;
+   display: inline-block;
+   position: relative;
+   top: 25px;
+   right: 210px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.sign{
+    position: relative;
+   top: 25px;
+   right: 10px;
+}
+}
+.main-container{
+    background-image: url(gradian\ image\ bg.png);
+    background-size: cover;
+    height: 1000px;
+
+    .text{
+        position: relative;
+        top: 50px;
+        left: 50px;
+        h1{
+          font-size: 40px;
+        }
+        p{
+            font-size: 20px;
+        }
+        button{
+            background-color: blue;
+            border: none;
+            border-radius: 30px;
+            width: 150px;
+            height: 60px;
+            color: white;
+            font-size: 20px;
+        }
+        button:hover{
+            cursor: pointer;
+            background-color: rgb(32, 32, 208);
+        }
+        a{
+            color: black;
+            font-size: 18px;
+        }
+    }
+}
+    .box-1{
+        position: relative;
+        top: 100px;
+        display: flex;
+        gap: 30px;
+        left: 70px;
+      height: 580px;
+        .box-a{
+            border: 2px solid rgb(239, 239, 239);
+            width: 560px;
+            box-shadow: 2px 2px 2px 2px  rgb(50, 49, 49);
+            background-image: url(gradian\ image\ bg.png);
+            background-size: cover;
+            border-radius: 20px;
+            h1 , p ,button{
+                position: relative;
+                top: 30px;
+                left: 40px;
+            }
+            h1{
+                font-size: 25px;
+            }
+            p{
+                font-size: 18px;
+            }
+            button{
+                background-color: transparent;
+                border: 2px solid black;
+                border-radius: 20px;
+                width: 150px;
+                height: 50px;
+                font-size: 20px;
+                font-weight: bold;
+                
+            }
+            img{
+                position: relative;
+                bottom: 230px;
+                left: 50px;
+            }
+            .img1{
+                position: relative;
+               left: 70px;
+                width: 490px;
+                height: 600px;
+            }
+            button:hover{
+            cursor: pointer;
+            color: white;
+            background-color: black;
+           }
+           
+        }
+        
+    }
+    .first-section{
+         height: 2000px;
+         background-color: rgb(255, 255, 255);
+         /* fist 2 box */
+         .one-section{
+            display: flex;
+            gap: 30px;
+            .box-b{
+                border: 2px solid rgb(239, 239, 239);
+                width: 560px;
+                background-color: rgb(188, 186, 186);
+                box-shadow: 2px 2px 2px 2px  rgb(50, 49, 49);
+                background-size: cover;
+                border-radius: 20px;
+                position: relative;
+                top: 100px;
+                left: 70px;
+                 height: 580px;
+                 .gradinal-bg{
+                    height: 200px;
+                    background-image: linear-gradient( rgb(211, 48, 75)  ,rgb(6, 6, 231) );
+                    background-size: cover;
+                    border-radius: 20px 20px 0px 0px;
+                    position: relative;
+                    width: 563px;
+                    color: white;
+                    right: 2px;
+                    bottom: 1px;
+                     h1{
+                        position: relative;
+                        top: 20px;
+                        left: 20px;
+                        font-size: 23px;
+                
+                     }
+                     p{
+                        position: relative;
+                        top: 20px;
+                        left: 20px;
+                        font-weight: 600;
+                     }
+                     a{
+                        text-decoration: none;
+                        color: white;
+                     }
+                     a:hover{
+                        cursor: pointer;
+                        text-decoration: underline;
+                     }
+                 }
+                 .text-1{
+                    position: relative;
+                    top: 30px;
+                    left: 30px;
+                    h1{
+                        font-size: 25px;
+                    }
+                    p{
+                      font-weight: 600;  
+                    }
+                 }
+                
+                     .text-2{
+                        position: relative;
+                        top: 30px;
+                        left: 30px;
+                        h1{
+                            font-size: 23px;
+                        }
+                        p{
+                            font-weight: 300;
+                            font-size: 20px;
+                        }
+                        a{
+                            text-decoration: none;
+                            color: rgb(0, 0, 0);
+                         }
+                         a:hover{
+                            cursor: pointer;
+                            text-decoration: underline;
+                         }
+                        
+                     }
+                     img{
+                        width: 550px;
+                        height: 500px;
+                        position: relative;
+                       bottom: 80px;
+                     }
+             }
+             
+         }
+         /* second 2 box */
+        .two-section{
+            display: flex;
+            gap: 30px;
+            .box-c{
+             border: 2px solid rgb(239, 239, 239);
+            width: 560px;
+            height: 500px;
+            background-color: rgb(217, 217, 217);
+            box-shadow: 2px 2px 2px 2px  rgb(50, 49, 49);
+            background-size: cover;
+            border-radius: 20px;
+            position: relative;
+            top: 200px;
+            left: 80px;
+            h1 , p ,a{
+                position: relative;
+                top: 30px;
+                left: 40px;
+            }
+            h1{
+                font-size: 25px;
+            }
+            p{
+                font-size: 18px;
+            }
+            img{
+               position: relative;
+               bottom: 250px;
+               
+            }
+            a{
+                
+                color: rgb(0, 0, 0);
+             }
+             
+            }
+            .text-3{
+                h1 , p ,a{
+                    position: relative;
+                    top: 30px;
+                    left: 40px;
+                }
+                h1{
+                    font-size: 25px;
+                }
+                p{
+                    font-size: 18px;
+                }
+                a{
+                    /* text-decoration: none; */
+                    color: rgb(0, 0, 0);
+                 }
+                img{
+                    width: 850px;
+                    height: 300px;
+                    position: relative;
+                    top: 75px;
+                    right: 160px;
+                } 
+            }
+            
+        }
+        /* second 3 box */
+        .three-section{
+            display: flex;
+            gap: 30px;
+            .box-d{
+             border: 2px solid rgb(239, 239, 239);
+            width: 560px;
+            height: 500px;
+            background-color: rgb(150, 149, 149);
+            box-shadow: 2px 2px 2px 2px  rgb(50, 49, 49);
+            background-size: cover;
+            border-radius: 20px;
+            position: relative;
+            top: 300px;
+            left: 80px;
+            .text-4{
+                h1 , p ,a ,h5{
+                    position: relative;
+                    top: 30px;
+                    left: 40px;
+                }
+                h5{
+                    font-size: 16px; 
+                }
+                h1{
+                    font-size: 25px;
+                }
+                p{
+                    font-size: 18px;
+                }
+                a{
+                    /* text-decoration: none; */
+                    color: rgb(0, 0, 0);
+                 }
+                 img{
+                    width: 350px;
+                    height: 290px;
+                    position: relative;
+                    top: 50px;
+                    left: 60px;
+                 }
+            }
+            }
+            .gradian-bg1{
+                height: 90px;
+                background-image: linear-gradient( rgb(48, 59, 211)  ,rgb(32, 231, 6) );
+                background-size: cover;
+                border-radius: 20px 20px 0px 0px;
+                position: relative;
+                width: 563px;
+                color: white;
+                right: 2px;
+                bottom: 1px;
+                h1{
+                    position: relative;
+                    top: 30px;
+                    left: 30px;
+                }
+            }
+            h1, p, a,hr{
+                position: relative;
+                top: 30px;
+                left: 30px;
+            }
+            hr{
+                width: 500px;
+            }
+            a{
+                text-decoration: none;
+                color: black;
+            }
+        }
+        
+    }
+    footer{
+        height: 800px;
+        background-color: rgb(141, 141, 141);
+        .foot-1{
+            display: flex;
+            gap: 100px;
+            position: relative;
+            top: 40px;
+            left: 50px;
+           list-style: none;
+           a{
+            text-decoration: none;
+            color: black;
+           }
+           a:hover{
+            cursor: pointer;
+            color: blue;
+           }
+        }
+        .foot-2{
+            position: relative;
+            left: 50px;
+            h4{
+                position:relative ;
+            left: 170px;
+            top: 20px;
+            }
+           .anker{
+            position:relative ;
+            left: 350px;
+           }
+           a{
+            position:relative ;
+            bottom: 10px;
+            color: black;
+            text-decoration: none;
+            font-size: 17px;
+           }
+           a:hover{
+            cursor: pointer;
+            color: blue;
+           }
+           hr{
+            width: 1050px;
+            position: relative;
+            left: 50px;
+            
+           }
+            
+        }
+        .foot-3{
+            position: relative;
+            left: 50px;
+            top:  50px ;
+            display: flex;
+            justify-content: space-between;
+            p{
+                position: relative;
+                right: 70px;
+            }
+            a{
+                position:relative ;
+                bottom: 5px;
+                color: black;
+                text-decoration: none;
+                font-size: 17px;
+               }
+               a:hover{
+                cursor: pointer;
+                color: blue;
+               }
+        }
+    }
